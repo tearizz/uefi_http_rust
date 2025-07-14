@@ -1,0 +1,4 @@
+milestone:
+    - [x] normal http
+    - [ ] UEFI env
+    - [ ] UEFI http 
