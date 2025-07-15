@@ -1,0 +1,17 @@
+# 包声明文件
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = MyHttpClientPkg
+  PACKAGE_GUID                   = 77fe15b5-40a3-4371-8dc8-4487e94fdc27
+  PACKAGE_VERSION                = 0.1
+
+[Includes]
+  Include
+
+[LibraryClasses]
+  # 声明你的应用程序可能需要的库类
+
+[Protocols]
+  gEfiHttpProtocolGuid
+  gEfiHttpServiceBindingProtocolGuid
+  gEfiTcp4ProtocolGuid

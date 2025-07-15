@@ -1,0 +1,3 @@
+ACTIVE_PLATFORM = MyHttpClientPkg/MyHttpClientPkg.dsc
+TARGET_ARCH = X64
+TOOL_CHAIN_TAG = GCC5

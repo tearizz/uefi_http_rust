@@ -1,0 +1,30 @@
+# 模块文件
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = HttpPostApp
+  FILE_GUID                      = 5a1048e2-fdc2-41e5-b892-04f70fe6d744
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  HttpPostApp.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  NetworkPkg/NetworkPkg.dec
+  MyHttpClientPkg/MyHttpClientPkg.dec    # 添加你自己的包
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  DebugLib
+  NetLib
+  HttpLib
+  DpcLib
+
+[Protocols]
+  gEfiHttpProtocolGuid
+  gEfiHttpServiceBindingProtocolGuid
+  gEfiTcp4ProtocolGuid
