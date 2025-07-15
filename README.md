@@ -1,8 +1,3 @@
-# prepair:
+目前尝试了 uefi-rs 的方案，暂时放弃
 
-> `apt install -y pkg-config libssl-dev`
-
-# milestone:
-    - [x] normal http
-    - [ ] UEFI env
-    - [ ] UEFI http 
+还是回到edk2方案
