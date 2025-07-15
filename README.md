@@ -1,3 +1,1 @@
-目前尝试了 uefi-rs 的方案，暂时放弃
-
-还是回到edk2方案
+- [x] normal http request in C 
